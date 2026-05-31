@@ -17,3 +17,10 @@ external database.
 1. Install [Ollama](https://ollama.com) and run `ollama pull llama3.2`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run: `python src/chatbot.py`
+
+## Web Interface
+Run the chatbot in your browser using Streamlit:
+
+```
+streamlit run src/app.py
+```
